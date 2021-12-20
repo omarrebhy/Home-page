@@ -1,0 +1,564 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    height: auto;
+}
+
+
+/* start nav */
+.navbar {
+    background-color: #0080FF;
+    color: white;
+    height: 70px;
+}
+
+.navbar img {
+    width: 200px;
+    margin-left: 90px;
+    margin-bottom: 35px;
+}
+
+.navbar .navbar-nav li a {
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 85px;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+   
+}
+
+.navbar .nav-item .fa-briefcase-medical,
+.fa-user-plus,
+.fa-sign-in-alt {
+    font-size: 30px;
+    position: relative;
+    bottom: 35px;
+    left: 45px;
+}
+/*  end nav bar */
+.carousel {
+    position: relative;
+    top: 50px;
+}
+
+.carousel .carousel-inner .carousel-item img {
+    height: 650px;
+}
+
+.home {
+    position: relative;
+    border: gainsboro 3px solid;
+    bottom: 150px;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+}
+
+.home ul li {
+    border: gainsboro 1px solid;
+    position: relative;
+    top: 10px;
+}
+
+.home ul li i {
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.home ul li a {
+    font-size: 30px;
+    width: 280px;
+}
+
+.home ul li h6 {
+    font-size: small;
+}
+
+.home ul li h6 {
+    font-size: small;
+    position: relative;
+    left: 25px;
+}
+
+.home .tab-content {
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+}
+
+.home .search {
+    width: 100%;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 30px;
+ margin: auto;
+ margin-left: 300px;
+
+  
+}
+
+.home .search button {
+    width: 250px;
+    height: 90px;
+    background-color: #FF1200;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.home .search input {
+    border: none;
+    text-align: right;
+    margin-right: 1px;
+    margin-left: 15px;
+}
+
+.home .dropdown {
+  margin-left: 325px;
+  margin-bottom: 50px;
+}
+
+.home .dropdown a {
+    text-decoration: none;
+    color: #0080FF;
+}
+
+
+#pills-profile{
+    width: 100%;
+    display: inline-flex;
+    background-color:white;
+    height: 250px;
+    border: solid black 2px;
+}
+#pills-profile button{
+    width: 40%;
+    height: 40%;
+    background-color: #FF1200;
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+   
+}
+.booking{
+    width: 25%;
+    height: auto;
+    
+}
+
+#pills-profile .booking .dropdown{
+    margin-top: 80px;
+    margin-left: 70px;
+    
+}
+#pills-profile .booking input{
+text-align: right;
+    position: relative;
+    top: 50px;
+    left:50px;
+    
+}
+#location a{
+    margin-left: 50px;
+}
+
+
+
+#loca a{
+    margin-left: 20px;
+}
+
+
+.h1{
+    text-align: right;
+    font-weight: bold;
+  margin-right: 40px;
+  margin-top: 50px;
+font: normal normal bold 40px/40px Eras ITC;
+letter-spacing: 0px;
+color: #474E4E;
+opacity: 1;
+}
+
+.slid1{
+    background-color: #0080FF;
+    color: white;
+    width: 100%;
+    text-align: right;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.slid1 h2,h5{
+    text-align: right;
+    margin-left: 350px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.slid1 img{
+    width: 100%;
+    height: auto;
+    margin-left: 60px;
+   
+}
+.slid1 button{
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 20px;
+   height: 50px;
+    width: 150px;
+    background-color: #FF1200;
+    border-radius: 20px;
+
+}
+.slid2{
+    background-color: #0080FF;
+    color: white;
+    width: 100%;
+    text-align: right;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.slid2 h2{
+    text-align: right;
+    margin-left: 350px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-top: 20px;
+
+    
+}
+.slid2 h5{
+    text-align: right;
+    font: normal normal normal 13px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+   
+    
+}
+.slid2 img{
+    width: 70%;
+    height: auto;
+    margin-left: 60px;
+   
+}
+.slid2 button{
+    text-align: center;
+  margin-left: 350px;
+   height: 50px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: #0080FF;
+
+}
+.slid3{
+    margin-top: 30px;
+   
+}
+.slid3 button{
+    width: 100%;
+    height: 60px;
+
+}
+.slid4 {
+    background-color: #0080FF;
+    color: white;
+    width: 100%;
+ 
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+.slid4 img{
+    width: 100%;
+    height: auto;
+    margin-left: 60px;
+   
+}
+.slid4 h2{
+    text-align: right;
+    margin-left: 320px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-top: 20px;
+  
+}
+.slid4 ol{
+   list-style-position: inside;
+margin-left: 230px;
+width: 100%;
+
+   
+}
+.slid4 ol li{
+   
+    margin-left: 100px;
+    text-align: right;
+    width: 100%;
+}
+
+
+@media(max-width:500px) {
+    .navbar img {
+        width: 150px;
+        position: relative;
+        bottom: 65px;
+        right: 60px;
+       
+    }
+    .navbar .fa-indent{
+        position: relative;
+        bottom: 70px;
+    }
+    .navbar{
+        color: black;
+       
+    }
+    .navbar .navbar-nav li a {
+       color: black;
+       margin: 0px;
+       position: relative;
+       bottom: 60px;
+       background-color: rgba(241, 229, 229, 0.5);
+    
+       
+    }
+    
+.navbar .nav-item 
+.fa-user-plus {
+    font-size: 25px;
+    position: relative;
+    bottom: 95px;
+    left: 75px;
+}
+.navbar .nav-item .fa-sign-in-alt{
+    font-size: 25px;
+    position: relative;
+    bottom: 95px;
+    left: 120px;
+
+}
+.navbar .nav-item .fa-briefcase-medical{
+    font-size: 25px;
+    position: relative;
+    bottom: 95px;
+    left: 95px;
+
+}
+.home .tab-content {
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    height: 700px;
+}
+.home .search {
+    width: 100%;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin: auto;
+}
+.home .search button{
+    width:90px;
+    height: 100%;
+    margin-top: 20px;
+
+}
+.home .dropdown {
+    margin-left: 140px;
+    margin-bottom: 50px;
+  }
+
+.home .dropdown a {
+    text-decoration: none;
+    color: #0080FF;
+}
+
+#pills-profile{
+    width: 100%;
+    display: inline-block;
+    background-color:white;
+    height: 700px;
+    border: none;
+    
+
+}
+#pills-profile button{
+    width: 100%;
+    height: 10%;
+    background-color: #FF1200;
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.booking{
+    width: 100%;
+    height:auto;
+    border: black solid 3px;
+    margin-top: 10px;
+ 
+    
+}
+
+#pills-profile .booking .dropdown{
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+#pills-profile .booking input{
+text-align: right;
+    position: relative;
+    top: 10px;
+  margin-left: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.slid1{
+    background-color: #0080FF;
+    color: white;
+    width: 100%;
+    text-align: right;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.slid1 h2,h5{
+    text-align: right;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+font-size: 15px;
+    
+}
+.slid1 img{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+   
+}
+.slid1 button{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+   height: 40px;
+    width: 120px;
+    background-color: #FF1200;
+    border-radius: 20px;
+
+}
+.slid2{
+    background-color: #0080FF;
+    color: white;
+    width: 100%;
+    text-align: right;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.slid2 h2{
+    text-align: right;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: px;
+
+    
+}
+.slid2 h5{
+    text-align: right;
+    font: normal normal normal 13px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+   
+    
+}
+.slid2 img{
+    width: 100%;
+    height: auto;
+    margin-left:0px;
+   
+}
+.slid2 button{
+    text-align: center;
+  margin-left: 0px;
+   height: 50px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: #0080FF;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.slid3{
+    margin-top: 0px;
+   
+}
+.slid3 button{
+    width: 80%;
+    height: 60px;
+
+}
+.slid4 {
+    background-color: #0080FF;
+    color: white;
+    width: 100%;
+ 
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+.slid4 img{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+   
+}
+.slid4 h2{
+    text-align: right;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 24px;
+    margin-top: 0px;
+  
+}
+.slid4 ol{
+   list-style-position: inside;
+margin-left: 0px;
+width: 100%;
+
+   
+}
+.slid4 ol li{
+   
+    margin-left: 0px;
+    text-align: right;
+    width: 100%;
+}
+}   
